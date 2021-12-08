@@ -181,5 +181,24 @@ a.hover{
   display:inline-block;
 }
 
+#dropdown_nav li a{
+  font-weight:100;
+  font-size:18px;
+  color:#fff;
+  padding: 15px 22px 20px 22px;
+  background: url(../images/linemenu.png) right no-repeat;
+  -moz-transition: background-color 0.3s 0.01s ease;
+  -o-transition:background-color 0.3s 0.01s ease;
+  -webkit-transition:background-color 0.3s 0.01s ease;
+}
 
+#dropdown_nav li a:hover{
+  background:#000;
+  text-decoration:none;
+  color:#0dbfe5;
+}
 
+#dropdown_nav li a.first{
+  -moz-border-radius:5px 0px 0px 5px;
+  -webkit-border-radius:5px 0px 0px 5px;
+}
