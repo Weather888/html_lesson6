@@ -8,9 +8,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
   
   <title>Макет сайта</title>
-<link rel="stylesheet" href="css/style.css">
-  
-  <!-- Begin #bottomMenu -->
+  <link rel="stylesheet" href="css/style.css">
 
   <script>
 
@@ -34,89 +32,242 @@
 
 <body>
 
-  <!-- Начало хидер -->
-  <header class="header">
-  <div id="headerInner">
-    <!-- Верхнее правое меню -->
-      <nav class="topMenuRight">
-      <ul>
-        <li><a href="#"> Страница 1</a></li>
-        <li><a href="#"> Страница 2</a></li>
-        <li><a href="#"> Страница 3</a></li>
-        <li><a href="#"> Страница 4</a></li>
-      </ul>
-      </nav>
-      <!--Иконки соц. сетей-->
-      <div class="share-new">
-          <a class="icon-mail" href="#" title="Подписаться по e-mail" target="_blank"></a>
-          <a class="icon-rss" href="#" title="Подписаться на rss" target="_blank"></a>
-          <a class="icon-twitter" href="#" title="Следить в Twitter!" target="_blank"></a>
-      </div> 
-      <div class="logo">
-        <a href="#"><img src="images/logo.png" alt="Блог"/></a>
-      </div>
-      
-      <!-- Начало #bottomMenu -->
-      <nav class="bottomMenu">
-        <ul id="dropdown_nav">
-
-          <li><a href="#">Категория</a></li>
-          <ul class="sub_nav">
-            <li><a href="#">Подменю #1</a></li>
-            <li><a href="#">Подменю #2</a></li>
-            <li><a href="#">Подменю #3</a></li>
-            <li><a href="#">Подменю #4</a></li>
-          </ul>
-          <li><a href="#">Категория 1</a></li>
-          <li><a href="#">Категория 2</a></li>
-          <li><a href="#">Категория 3</a></li>
-          <li><a href="#">Категория 4</a></li>
-        </ul>
-      </nav> <!-- конец #bottomMenu -->
-</div>
- </header>  <!-- Конец хидер -->
-
- 
-
-  <!-- начало врапер -->
-<section id="wrapper">
-<div id="middle">
-  <div id="content">
-    <div id="colLeft"></div>
-
-          <!-- Начало .postBox -->
+  <!-- Begin header -->
+    <header class="header"> 
+        <div id="header_inner"> 
+            <nav class="top_menu_right">
+              <h2 hidden>Верхнее правое меню</h2>
+              <ul>
+                <li><a href="#">Страница 1</a></li>
+                <li><a href="#">Страница 2</a></li>
+                <li><a href="#">Страница 3</a></li>
+                <li><a href="#">Страница 4</a></li>
+              </ul>
+            </nav> 
+            <div class="share_new">
+              <a class="icon_twitter" href="#" title="Следить в Twitter!" target="_blank"></a>
+              <a class="icon_rss" href="#" title="Подписаться на rss" target="_blank"></a>
+              <a class="icon_mail" href="#" title="Подписаться по e-mail" target="_blank"></a>
+            </div>
+            <div class="logo">
+              <a href="#"><img src="images/logo.png" alt="Блог"></a>
+            </div>
+            <!-- Begin #bottom_menu -->
+            <nav class="bottom_menu">
+              <h2 hidden>Главное меню</h2>
+              <ul id="dropdown_nav">
+                <li>
+                  <a href="#">Категория</a>
+                  <ul class="sub_nav">
+                    <li><a href="#">Подменю #1</a></li>
+                    <li><a href="#">Подменю #2</a></li>
+                    <li><a href="#">Подменю #3</a></li>
+                    <li><a href="#">Подменю #4</a></li>
+                  </ul>
+                </li>
+                
+                <li><a href="#">Категория 1</a></li>
+                <li><a href="#">Категория 2</a></li>
+                <li><a href="#">Категория 3</a></li>
+                <li><a href="#">Категория 4</a></li>
+              </ul>
+            </nav> 
+            <!-- End #bottom_menu -->
+          </div>
+        </header> 
+        <!-- End header -->
         
-          <!-- Конец .postBox -->
+        <div id="lpblock">
+          <h2>Последние записи</h2>
+        </div>
+        
+        <!-- Begin section #wrapper -->
+        <section id="wrapper">
+          <h2 hidden>Контент</h2>
+          <!-- Begin middle -->
+          <div id="middle">
+            <!-- Begin content -->
+            <div id="content">
+              <div id="col_left"> 
+                
+                <!-- Begin .post_box4 -->
+                <article class="post_box">
+                  <div class="post_thumb"><a href="#"><img src="images/tumbs/boys/4.jpg" alt="3.jpg"></a></div>
+                  <h2><a href="#">Скачать бесплатно 15 HTML5 и CSS3 шаблонов</a></h2>
+                  <div class="info">
+                    Екатерина Ивановна// <a href="#">Метки: метка, метка 2</a>// Дек.11.2021//
+                    Комментариев: <a href="#">238</a>
+                  </div>
+                  <div class="text_preview">
+                    <p>Приветствую Вас, уважаемые читатели блога. Сегодня спешу представить Вам очередную бесплатную 
+                      подборку шаблонов на CSS3 и HTML5, а также здесь есть несколько шаблонов с большими и всроенными 
+                      JQuery слайдерами изображений. В общем, я надеюсь, что Вы здесь найдёте то что Вам нужно. 
+                      Наслаждайтесь.</p>
+                    </div>
+                    <div class="more_link"><a href="#">Далее</a></div>
+                  </article>
+                  <!-- End .post_box4 -->
+                  <div class="raz"></div>
 
+                  <!-- Begin .post_box5 -->
+                  <article class="post_box">
+                    <div class="post_thumb"><a href="#"><img src="images/tumbs/boys/5.jpg" alt="3.jpg"></a></div>
+                    <h2><a href="#">Скачать бесплатно 15 HTML5 и CSS3 шаблонов</a></h2>
+                    <div class="info">
+                      Екатерина Ивановна// <a href="#">Метки: метка, метка 2</a>// Дек.11.2021//
+                      Комментариев: <a href="#">238</a>
+                    </div>
+                    <div class="text_preview">
+                      <p>Приветствую Вас, уважаемые читатели блога. Сегодня спешу представить Вам очередную бесплатную
+                        подборку шаблонов на CSS3 и HTML5, а также здесь есть несколько шаблонов с большими и всроенными
+                        JQuery слайдерами изображений. В общем, я надеюсь, что Вы здесь найдёте то что Вам нужно.
+                        Наслаждайтесь.</p>
+                    </div>
+                    <div class="more_link"><a href="#">Далее</a></div>
+                  </article>
+                  <!-- End .post_box5 -->
+                  <div class="raz"></div>
+
+                  <!-- Begin .post_box6 -->
+                  <article class="post_box">
+                    <div class="post_thumb"><a href="#"><img src="images/tumbs/boys/6.jpg" alt="3.jpg"></a></div>
+                    <h2><a href="#">Скачать бесплатно 15 HTML5 и CSS3 шаблонов</a></h2>
+                    <div class="info">
+                      Екатерина Ивановна// <a href="#">Метки: метка, метка 2</a>// Дек.11.2021//
+                      Комментариев: <a href="#">238</a>
+                    </div>
+                    <div class="text_preview">
+                      <p>Приветствую Вас, уважаемые читатели блога. Сегодня спешу представить Вам очередную бесплатную
+                        подборку шаблонов на CSS3 и HTML5, а также здесь есть несколько шаблонов с большими и всроенными
+                        JQuery слайдерами изображений. В общем, я надеюсь, что Вы здесь найдёте то что Вам нужно.
+                        Наслаждайтесь.</p>
+                    </div>
+                    <div class="more_link"><a href="#">Далее</a></div>
+                  </article>
+                  <!-- End .post_box6 -->
+                  <div class="raz"></div>
+
+                  <!-- Begin .post_box7 -->
+                  <article class="post_box">
+                    <div class="post_thumb"><a href="#"><img src="images/tumbs/boys/7.jpg" alt="3.jpg"></a></div>
+                    <h2><a href="#">Скачать бесплатно 15 HTML5 и CSS3 шаблонов</a></h2>
+                    <div class="info">
+                      Екатерина Ивановна// <a href="#">Метки: метка, метка 2</a>// Дек.11.2021//
+                      Комментариев: <a href="#">238</a>
+                    </div>
+                    <div class="text_preview">
+                      <p>Приветствую Вас, уважаемые читатели блога. Сегодня спешу представить Вам очередную бесплатную
+                        подборку шаблонов на CSS3 и HTML5, а также здесь есть несколько шаблонов с большими и всроенными
+                        JQuery слайдерами изображений. В общем, я надеюсь, что Вы здесь найдёте то что Вам нужно.
+                        Наслаждайтесь.</p>
+                    </div>
+                    <div class="more_link"><a href="#">Далее</a></div>
+                  </article>
+                  <!-- End .post_box7 -->
+                  <div class="raz"></div>
+                </div> 
+                
+                <!-- Begin aside #col_right -->
+                <aside id="col_right"> 
+                  <form method="get" action="/search" target="blank">
+                    <input name="q" id="form_query" value="" placeholder="Поиск...">
+                    <input id="form_querysub" type=submit value="">
+                  </form>
+                  
+                  <div class="right_box">
+                    <h2>Виджет 1</h2>
+                    <ul>
+                      <li><a href="#" title="Плавная анимация объектов только с помощью CSS (5 примеров)">
+                      Плавная анимация объектов только с помощью CSS (5 примеров)</a></li>
+                        
+                      <li><a href="#" title="Скачать бесплатно 15 HTML5 и CSS3 шаблонов для Ваших новых идей и веб &#8211; проектов">
+                      Скачать бесплатно 15 HTML5 и CSS3 шаблонов для Ваших новых идей и веб &#8211; проектов</a></li>
+                      
+                      <li><a href="#" title="Бесплатные всплывающие и модальные окна с использованием CSS3 и JQuery">
+                      Бесплатные всплывающие и модальные окна с использованием CSS3 и JQuery</a></li>
+                        
+                      <li><a href="#" title="500+ бесплатных Photoshop фигур (Shapes) для Ваших новых проектов">
+                      500+ бесплатных Photoshop фигур (Shapes) для Ваших новых проектов</a></li>
+                        
+                      <li><a href="#" title="Бесплатные PSD и CSS3 меню для Вашего веб проекта">Бесплатные PSD и CSS3 меню для Вашего веб проекта</a></li>
+                      
+                      <li><a href="#" title="Примеры идеального сочетания цветов в веб &#8211; дизайне">
+                      Примеры идеального сочетания цветов в веб &#8211; дизайне</a></li>
+                      
+                      <li><a href="#" title="Классная стрелка плавной авто прокрутки вверх страницы с JQuery и CSS">
+                      Классная стрелка плавной авто прокрутки вверх страницы с JQuery и CSS</a></li>
+                      
+                      <li><a href="#" title="Бесплатные кнопки и иконки, формы обратной связи и входа, меню и ещё множество стильных вещей">
+                      Бесплатные кнопки и иконки, формы обратной связи и входа, меню и ещё множество стильных вещей</a></li>
+                      
+                      <li><a href="#" title="Примеры игр, которые сделанные с помощью html5 canvas">
+                      Примеры игр, которые сделанные с помощью html5 canvas</a></li>
+                      
+                      <li><a href="#" title="<Бесплатные CSS и xHTML шаблоны с тёмным дизайном для Ваших проектов>">
+                      Бесплатные CSS и xHTML шаблоны с тёмным дизайном для Ваших проектов</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="right_box">
+                    <h2>Виджет 2</h2>
+                    <ul>
+                      <li><a href="#" title="Плавная анимация объектов только с помощью CSS (5 примеров)">
+                      Плавная анимация объектов только с помощью CSS (5 примеров)</a></li>
+                      
+                      <li><a href="#" title="Скачать бесплатно 15 HTML5 и CSS3 шаблонов для Ваших новых идей и веб &#8211; проектов">
+                      Скачать бесплатно 15 HTML5 и CSS3 шаблонов для Ваших новых идей и веб &#8211; проектов</a></li>
+                      
+                      <li><a href="#" title="Бесплатные всплывающие и модальные окна с использованием CSS3 и JQuery">
+                      Бесплатные всплывающие и модальные окна с использованием CSS3 и JQuery</a></li>
+                      
+                      <li><a href="#" title="500+ бесплатных Photoshop фигур (Shapes) для Ваших новых проектов">
+                      500+ бесплатных Photoshop фигур (Shapes) для Ваших новых проектов</a></li>
+              
+                      <li><a href="#" title="Бесплатные PSD и CSS3 меню для Вашего веб проекта">Бесплатные PSD и CSS3 меню для Вашего веб проекта</a></li>
+                      
+                      <li><a href="#" title="Примеры идеального сочетания цветов в веб &#8211; дизайне">
+                      Примеры идеального сочетания цветов в веб &#8211; дизайне</a></li>
+                      
+                      <li><a href="#" title="Классная стрелка плавной авто прокрутки вверх страницы с JQuery и CSS">
+                      Классная стрелка плавной авто прокрутки вверх страницы с JQuery и CSS</a></li>
+                      
+                      <li><a href="#" title="Бесплатные кнопки и иконки, формы обратной связи и входа, меню и ещё множество стильных вещей">
+                      Бесплатные кнопки и иконки, формы обратной связи и входа, меню и ещё множество стильных вещей</a></li>
+                      
+                      <li><a href="#" title="Примеры игр, которые сделанные с помощью html5 canvas">
+                      Примеры игр, которые сделанные с помощью html5 canvas</a></li>
+                      
+                      <li><a href="#" title="<Бесплатные CSS и xHTML шаблоны с тёмным дизайном для Ваших проектов>">
+                      Бесплатные CSS и xHTML шаблоны с тёмным дизайном для Ваших проектов</a></li>
+                    </ul>
+                  </div>
+                <!-- End aside #col_right -->
+                </aside>
+              <!-- End content -->
+              </div> 
+            <!-- End middle -->
+            </div> 
+          <!-- End section #wrapper -->
+          </section>  
           
-          <!-- Начало .postBox -->
-         
-          <!-- Конец .postBox -->
-        
-
-          <!-- Начало .postBox -->
-         
-          <!-- Конец .postBox -->
-
-          
-
-          <!-- Начало .postBox -->
-        
-          <!-- Конец .postBox -->
-
-       </div> <!-- Конец коллефт -->
-<aside id="colRight"
-</aside> <!-- Конец колрайт -->
-      </div><!-- Конец контент -->
-   </div><!-- Конец мидл -->
-  </section><!-- Конец врапер -->
-
-  <!-- Начало футер -->
-  <footer id="footer">
-<div id="footerInner">
-</div><!-- Конец футериннер -->
-  </footer><!-- Конец футер -->
-
+          <!-- Begin footer -->
+          <footer id="footer"> 
+            <div id="footer_inner">
+              <div id="footer_logo">
+                <a href="#"><img src="images/logo.png" alt="Блог"></a> 
+              </div>
+              <nav class="footer_nav">
+                <h2 hidden>Нижнее меню</h2>
+                <ul>
+                  <li><a href="#">Страница 1</a></li>
+                  <li><a href="#">Страница 2</a></li>
+                  <li><a href="#">Страница 3</a></li>
+                  <li><a href="#">Страница 4</a></li>
+                </ul>
+              </nav>
+            </div> 
+          <!-- End footer -->
+          </footer> 
 </body>
 
 </html>
